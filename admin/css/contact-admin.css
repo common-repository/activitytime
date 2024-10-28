@@ -1,0 +1,640 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ body.wp-admin.elementinvader-page
+{
+    background: white;
+    box-sizing: border-box;
+}
+
+body.elementinvader-page .wrap
+{
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.bg-white
+{
+    background: white;
+}
+
+/* Navigation */
+
+.menu-top img
+{
+    max-width:100%;
+}
+
+body.elementinvader-page .wrap.see_wrap
+{
+    font-family: Montserrat;
+}
+
+.see_wrap nav
+{
+    float:right;
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+.see_wrap nav a
+{
+    color:black;
+    text-decoration: none;
+    padding: 30px 20px 36px 20px;
+    /*background:red;*/
+    display:inline-block;
+    border-bottom: 6px solid white;
+    outline:0px;
+    box-sizing: border-box;
+}
+
+.see_wrap nav a:hover, .see_wrap nav a.active
+{
+    border-bottom: 6px solid #E45FA3;
+}
+
+.see_wrap nav a:hover
+{
+    background: #F0F4F7;
+}
+
+.see_wrap nav a.active:hover
+{
+    background:white;
+}
+
+/* Search Panel */
+
+.see-panel-search
+{
+    clear:both;
+    background: #F0F4F7;
+    padding: 15px 15px 15px 15px;
+}
+
+.see-panel-search .btn-group
+{
+}
+
+.see-panel-search .btn-group button.btn.btn-find
+{
+    background: #E45FA3;
+    border:0px;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    width:auto;
+    float:right;
+    display:inline-block;
+}
+
+.see-panel-search .btn-group button.btn.btn-find:hover
+{
+    background: black;
+}
+
+.see-panel-search .btn-group a.btn.btn-import
+{
+    background: #E45FA3;
+    border:0px;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.group-import
+{
+    background: white;
+    padding:6px;
+    border-radius: 5px;
+
+    box-shadow: 9px 7px 4px #dfdfdf;
+}
+
+.see-panel-search .btn-group a.btn.btn-import:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #E45FA3;
+}
+
+.see-panel-search .dashicons-search::before
+{
+    font-size:36px;
+}
+
+.see-panel-search .dashicons-search
+{
+    color:black;
+    text-decoration: none;
+    display: flex;
+    height:36px;
+    padding: 17px 20px 17px 20px
+}
+
+.see-panel-search input.find
+{
+    border:0px white;
+    background:white;
+    font-size:28px;
+    color:black;
+    padding: 34px 10px 34px 10px;
+    display:flex;
+    position: relative;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    min-width: 0;
+    outline:0;
+    margin: 2px 0px 0px 10px;
+}
+
+.see-panel-search a.reset-icon
+{
+    color: black;
+    text-decoration: none;
+    
+    position:relative;
+    
+}
+
+.see-panel-search a.reset-icon .dashicons-no
+{
+    color:#43657E;
+    text-decoration: none;
+    display:inline-block;
+    height:20px;
+    font-size: 20px;
+    padding: 4px 4px 4px 4px;
+    background: #F0F4F7;
+    border-radius: 20px;
+    margin:21px 10px 0px 10px;
+    float:right;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* Form layout */
+
+form.form-layout
+{
+    background: #F0F4F7;
+    padding: 15px 15px 15px 15px;
+}
+
+.see_wrap form.form-layout button
+{
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+    font-size: 14px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    display:inline-block;
+
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none;
+    width: auto;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    margin-top:10px;
+    border-radius: 5px;
+}
+
+form.form-layout label
+{
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px 15px 10px;
+    margin:0px;
+    display:block;
+}
+
+form.form-layout .form-group:first-child label
+{
+    padding-top:5px;
+}
+
+form.form-layout input
+{
+    border: 0px white;
+    background: white;
+    font-size: 18px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    position: relative;
+}
+
+form.form-layout select
+{
+    border: 0px white;
+    background: white;
+    font-size: 18px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    height:auto;
+    display: block;
+    position: relative;
+}
+
+form.form-layout textarea
+{
+    border: 0px white;
+    background: white;
+    font-size: 18px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    position: relative;
+    min-height: 200px;
+}
+
+form.form-no-popup.form-horizontal.white-popup-block
+{
+    padding: 0px !important;
+}
+
+#template-import-popup .form-elements-container
+{
+    padding-top:15px;
+}
+
+/* Results body */
+
+.see_wrap .card {
+    margin-top: 0px;
+}
+
+.see_wrap .panel .see-panel-title
+{
+    font-size: 18px;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+.see_wrap .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+
+
+.see_wrap .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    box-sizing: border-box;
+}
+
+.see_wrap .col, .see_wrap .col-1, .see_wrap .col-10, .see_wrap .col-11, .see_wrap .col-12, .see_wrap .col-2, .see_wrap .col-3, .see_wrap .col-4, .see_wrap .col-5, .see_wrap .col-6, .see_wrap .col-7, .see_wrap .col-8, .see_wrap .col-9, 
+.see_wrap .col-auto, .see_wrap .col-lg, .see_wrap .col-lg-1, .see_wrap .col-lg-10, .see_wrap .col-lg-11, .see_wrap .col-lg-12, .see_wrap .col-lg-2, .see_wrap .col-lg-3, .see_wrap .col-lg-4, 
+.see_wrap .col-lg-5, .see_wrap .col-lg-6, .see_wrap .col-lg-7, .see_wrap .col-lg-8, .see_wrap .col-lg-9, .see_wrap .col-lg-auto, .see_wrap .col-md, .see_wrap .col-md-1, .see_wrap .col-md-10, 
+.see_wrap .col-md-11, .see_wrap .col-md-12, .see_wrap .col-md-2, .see_wrap .col-md-3, .see_wrap .col-md-4, .see_wrap .col-md-5, .see_wrap .col-md-6, .see_wrap .col-md-7, .see_wrap .col-md-8, 
+.see_wrap .col-md-9, .see_wrap .col-md-auto, .see_wrap .col-sm, .see_wrap .col-sm-1, .see_wrap .col-sm-10, .see_wrap .col-sm-11, .see_wrap .col-sm-12, .see_wrap .col-sm-2, .see_wrap .col-sm-3, 
+.see_wrap .col-sm-4, .see_wrap .col-sm-5, .see_wrap .col-sm-6, .see_wrap .col-sm-7, .see_wrap .col-sm-8, .see_wrap .col-sm-9, .see_wrap .col-sm-auto, .see_wrap .col-xl, .see_wrap .col-xl-1, 
+.see_wrap .col-xl-10, .see_wrap .col-xl-11, .see_wrap .col-xl-12, .see_wrap .col-xl-2, .see_wrap .col-xl-3, .see_wrap .col-xl-4, .see_wrap .col-xl-5, .see_wrap .col-xl-6, .see_wrap .col-xl-7, 
+.see_wrap .col-xl-8, .see_wrap .col-xl-9, .see_wrap .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+.see_wrap .card-body
+{
+    padding:30px;
+    position:relative;
+    display:block;
+    box-sizing: border-box;
+}
+
+.see_wrap .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-sizing: border-box;
+    max-width:100%;
+
+    padding:0px;
+}
+
+
+.see_wrap .card a.img_link
+{
+    height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+    position:relative;
+}
+
+.see_wrap .card a.img_link img
+{
+    height:auto;
+    width:100%;
+    position:absolute;
+}
+
+.see_wrap .card-tags
+{
+    color: #6C7073;
+    font-weight:normal;
+    font-size:14px;
+}
+
+.see_wrap .card-name
+{
+    color: black;
+    font-weight:bold;
+    font-size:18px;
+    border-bottom: 2px solid #F0F4F7;
+    padding-bottom:10px;
+}
+
+.see_wrap .card .page-name
+{
+    font-weight:bold;
+}
+
+.see_wrap .card-name span
+{
+    color: #B8C1C8;
+    font-weight:bold;
+    font-size:18px;
+    float:right;
+}
+
+/* Alerts */
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+a.alert
+{
+    display:block;
+    text-decoration: none;
+}
+
+div.alert a
+{
+    text-decoration: none;
+}
+
+#template-import-popup .alert-info
+{
+    margin-bottom: 0px;
+}
+
+/* Buttons */
+
+.see_wrap .btn.btn-invader {
+    color: black;
+    background-color: white;
+    border-color: #F0F4F7;
+    font-weight:bold;
+    font-size:18px;
+    
+}
+
+.see_wrap .btn.btn-invader:hover {
+    color: #fff;
+    background-color: #E45FA3;
+    border-color: #E45FA3;
+}
+
+
+
+/* Popup */
+
+.form-horizontal.white-popup-block {
+    display: inline-block;
+    padding: 25px 40px !important;
+    background:white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Montserrat;
+    max-width:400px;
+}
+
+.mfp-auto-cursor .mfp-content {
+    text-align: center;
+}
+
+.control-group
+{
+    padding: 10px 0px 0px 0px;
+}
+
+.control-label
+{
+    padding: 0px 0px 10px 0px;
+}
+
+/* ShowStatus */
+
+.bb-alert {
+    top: 20%;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    padding: 1em 1.3em;
+    position: absolute;
+    z-index: 15;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+/* Responsive part */
+
+@media (max-width: 576px) {
+
+    .wrap
+    {
+        position:relative;
+    }
+
+    .see_wrap nav
+    {
+        width:100%;
+        display:block;
+        position:relative;
+    }
+
+	.see_wrap nav a
+    {
+        width:100%;
+        text-align: center;
+        position:relative;
+	}
+
+    .menu-top a.logo
+    {
+        text-align: center;
+        display: block;
+    }
+
+    .see_wrap .col-md-4
+    {
+        width:100%;
+        display:block;
+        position:relative;
+        float:left;
+        flex:none;
+        max-width: 100%;
+    }
+
+    .see-panel-search a.reset-icon .dashicons-no,
+    .see-panel-search .dashicons-search
+    {
+        display:none;
+    }
+
+    .see-panel-search input.find
+    {
+        display:block;
+        margin-left:0px;
+        margin-bottom:5px;
+    }
+
+    .see-panel-search .btn-group button.btn.btn-find {
+        background: #E45FA3;
+        border: 0px;
+        color: white;
+        font-size: 25px;
+        padding: 15px;
+        border-radius: 5px;
+        width: 100%;
+        float: none;
+        display:block;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .wrap
+    {
+        position:relative;
+    }
+
+    .see_wrap nav
+    {
+        width:100%;
+        display:block;
+        position:relative;
+    }
+
+	.see_wrap nav a
+    {
+        width:100%;
+        text-align: center;
+        position:relative;
+	}
+
+    .menu-top a.logo
+    {
+        text-align: center;
+        display: block;
+    }
+
+    .see_wrap .col-md-4
+    {
+        width:50%;
+        display:block;
+        position:relative;
+        float:left;
+        background:white;
+        flex:none;
+        max-width: 50%;
+    }
+
+}
+

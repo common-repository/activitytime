@@ -1,0 +1,187 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table {
+  font-size: 13px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table .actt_label {
+  margin: 5px;
+}
+
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table caption {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: left;
+  caption-side: bottom;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table caption a {
+  text-decoration: underline;
+  color: #0272bc;
+}
+
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table td,
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  text-align: center;
+}
+
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table thead > tr:first-child > td,
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table thead > tr:first-child > th,
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table thead > tr:first-child > td,
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table thead > tr:first-child > th,
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table thead:first-child > tr:first-child > td,
+.actt-shortcode .actt-actt_time_page .actt-actt_time_page--table thead:first-child > tr:first-child > th {
+  border-top: 0;
+}
+
+/* Labels */
+.actt_label {
+  display: inline-block;
+  margin: 0px 5px 5px 0px;
+  padding: 6px 6px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.actt_label.actt_label-success {
+  background: linear-gradient(to right, #5cb85c, #90cf90);
+}
+
+.actt_label.actt_label-danger {
+  background: linear-gradient(to right, #fe9365, #ffb08e);
+}
+
+.actt_label.actt_label-info {
+  background: linear-gradient(to right, #5bc0de, #5bc0ded9);
+}
+
+.actt_label.actt_label-warning {
+  background: linear-gradient(to right, #d9534f, #d9534fa1);
+}
+
+.actt_label.actt_label-success.puls {
+  background: #33d9b2;
+  animation: actt_label-success-puls 2s infinite;
+}
+
+@keyframes actt_label-success-puls {
+  0% {
+    background: #33d9b2;
+  }
+  50% {
+    background: #25bd99;
+  }
+  100% {
+    background: #33d9b2;
+  }
+}
+
+.actt_label.actt_label-danger.puls {
+  background: #fe9365;
+  animation: actt_label-danger-puls 2s infinite;
+}
+
+@keyframes actt_label-danger-puls {
+  0% {
+    background: #fe9365;
+  }
+  50% {
+    background: #ffb08e;
+  }
+  100% {
+    background: #fe9365;
+  }
+}
+
+.actt_label.actt_label-info.puls {
+  background: #5bc0de;
+  animation: actt_label-info-puls 2s infinite;
+}
+
+@keyframes actt_label-info-puls {
+  0% {
+    background: #5bc0de;
+  }
+  50% {
+    background: #2eadd4ea;
+  }
+  100% {
+    background: #5bc0de;
+  }
+}
+
+.actt_label.actt_label-warning.puls {
+  background: #d9534f;
+  animation: actt_label-warning-puls 2s infinite;
+}
+
+@keyframes actt_label-warning-puls {
+  0% {
+    background: #d9534f;
+  }
+  50% {
+    background: #d9534fa1;
+  }
+  100% {
+    background: #d9534f;
+  }
+}
+
+.actt-pro {
+  opacity: 0.4;
+}
+
+.white-popup-block {
+  display: inline-block;
+  padding: 25px 40px !important;
+}
+
+.mfp-auto-cursor .mfp-content {
+  text-align: left;
+}
+
+.mfp-wrap {
+  z-index: 100000;
+  background: white;
+  /*margin:25px 15px 15px 15px;
+	padding:25px 15px 15px 15px;*/
+  position: fixed;
+  /* Take it out of the flow of the document */
+  left: 0;
+  /* Left edge at left for now */
+  right: 0;
+  /* Right edge at right for now, so full width */
+  top: 20px;
+  /* Move it down from top of window */
+  width: 96%;
+  /* Give it the desired width */
+  height: 96%;
+  margin: auto;
+  /* Center it */
+  max-width: 100%;
+  /* Make it fit window if under 500px */
+}
+
+.mfp-wrap #wpfooter {
+  display: none;
+}

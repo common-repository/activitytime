@@ -1,0 +1,128 @@
+#wpbody-content>.notice
+{
+    margin:25px 20px 0 2px;    
+}
+
+.wp-admin .see-wrapper label>input[type="checkbox"] {
+    margin-top: 0;
+}
+
+/* opens street map */ 
+
+.leaflet-touch .leaflet-bar a {
+    background: white;
+    text-decoration: none;
+}
+
+.see-wrapper input[type=checkbox] + .label  {
+    margin-left: 5px;
+}
+ 
+@media(max-width: 782px){
+   .see-wrapper .checkbox input[type=checkbox],.see-wrapper .checkbox-inline input[type=checkbox], .see-wrapper .radio input[type=radio], .see-wrapper .radio-inline input[type=radio] {
+       margin-left: -30px;
+       box-shadow: none;
+   }
+
+   .see-wrapper input[type=checkbox], .see-wrapper input[type=radio] {
+       margin: 0px 0px 0px;
+   }
+
+   .see-wrapper .checkbox label, .see-wrapper .radio label {
+       padding-left: 30px;
+   }
+}
+
+
+.see-wrapper .progress-bar.auto-progress {
+    width: 100%;
+    -webkit-animation: auto-progress-animation 2s linear 1, progress-bar-stripes 2s linear infinite !important;
+    animation: auto-progress-animation 2s linear 1, progress-bar-stripes 2s linear infinite !important;
+} 
+ 
+@keyframes auto-progress-animation {
+    from {
+      width:0%;
+    }
+
+    to {
+     width:100%;
+   }
+}
+ 
+@-webkit-keyframes auto-progress-animation {
+    from {
+        width:0%;
+      }
+
+      to {
+       width:100%;
+     }
+}
+
+.dataTables_processing.panel.see-panel-default {
+    padding-left: 7px;
+    height: 100%;
+    line-height: 20px;
+    color: #fff;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+    
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+    
+    background-color: #5bc0de;
+    
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+    
+    width: 181px;
+}
+
+.control-label p em,
+.form-group p em
+{
+    display:blocK;
+    padding-top: 10px;
+    color:blue;
+    font-weight: normal;
+}
+
+span.important_message
+{
+    color:blue;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-group.multilevel .winter_dropdown_tree
+{
+    display:inline-block;
+}
+
+div.wp-menu-image:before {
+    font-size: 20px;
+}
+
+.dashicons-custom-package:before {
+    content: "\f16b";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.dashicons-custom-fa-euro:before {
+    content: "\f153";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+p.input-content {
+    padding: 15px 5px 0px 5px;
+}
+

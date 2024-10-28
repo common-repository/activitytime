@@ -1,0 +1,409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-16 17:02+0000\n"
+"PO-Revision-Date: 2021-04-17 21:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7"
+
+#: application/views/acct_contact/index.php:53
+msgid "1 (Not satisfied)"
+msgstr "1(Не удовлетворен)"
+
+#: application/views/acct_contact/index.php:57
+msgid "5 (Very satisfied)"
+msgstr "5 (Очень доволен)"
+
+#: application/views/activitytime/index.php:45
+#: application/views/activitytime/index.php:96
+msgid "Active h:m:s"
+msgstr "Длительность посещения (час:мин:сек)"
+
+#: admin/class-activitytime-admin.php:221
+msgid "Activity Time"
+msgstr "Время активности"
+
+#: admin/class-activitytime-admin.php:273
+msgid "Activity Time Settings"
+msgstr "Настройка времени активности"
+
+#: application/views/actt_time_per_page/index.php:10
+msgid "All pages"
+msgstr "Все страницы"
+
+#: application/views/actt_sessions/index.php:10
+msgid "All sessions"
+msgstr "Все сессии"
+
+#: admin/class-activitytime-admin.php:308
+msgid ""
+"Allow only this specific admins to see monitoring, if unchecked then all"
+msgstr ""
+"Разрешить только этим конкретным администраторам видеть мониторинг (если "
+"флажок снят, то видят все)"
+
+#: admin/class-activitytime-admin.php:228
+#: admin/class-activitytime-admin.php:229
+msgid "Analytic Graphs"
+msgstr "Графики аналитики"
+
+#: application/views/activitytime/index.php:5
+msgid "Analytic graphs"
+msgstr "Графики аналитики"
+
+#: application/controllers/Activitytime.php:139
+msgid "Any"
+msgstr "Любой"
+
+#: application/views/actt_current_active/index.php:129
+#: application/views/actt_current_active/index.php:192
+#: application/views/actt_sessions/index.php:118
+#: application/views/actt_sessions/index.php:183
+#: application/views/actt_time_per_page/index.php:122
+#: application/views/actt_time_per_page/index.php:187
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: application/views/actt_related/index.php:20
+msgid "Banner Image"
+msgstr "Баннерное изображение"
+
+#: application/views/actt_current_active/index.php:11
+#: application/views/actt_sessions/index.php:11
+#: application/views/actt_time_per_page/index.php:11
+msgid "Bulk remove"
+msgstr "Массовое удаление"
+
+#: application/views/actt_current_active/index.php:62
+#: application/views/actt_sessions/index.php:51
+#: application/views/actt_time_per_page/index.php:55
+msgid "Clear all filters"
+msgstr "Сброс всех фильтров"
+
+#: application/views/acct_contact/index.php:22
+msgid "Contact Form"
+msgstr "Контактная форма"
+
+#: admin/class-activitytime-admin.php:233
+#: admin/class-activitytime-admin.php:234
+msgid "Current Active"
+msgstr "Текущая активность"
+
+#: application/views/actt_current_active/index.php:10
+msgid "Current active"
+msgstr "Пользователи, которые сейчас посещают сайт"
+
+#: application/views/acct_contact/index.php:45
+msgid "Custom Work"
+msgstr "Работа пользователей"
+
+#: admin/class-activitytime-admin.php:292
+msgid "Days"
+msgstr "Дней"
+
+#: admin/class-activitytime-admin.php:291
+msgid "Delete time logs after"
+msgstr "Удалить журналы после"
+
+#: application/views/actt_current_active/index.php:176
+#: application/views/actt_sessions/index.php:167
+#: application/views/actt_time_per_page/index.php:171
+msgid "Enter here filter tag for any column"
+msgstr "Фильтр по всем столбцам (введите слово и нажмите Enter)"
+
+#: application/views/activitytime/index.php:30
+#: application/views/activitytime/index.php:81
+msgid "Export all CSV"
+msgstr "Экспортировать все в CSV"
+
+#: application/views/actt_current_active/index.php:61
+#: application/views/actt_sessions/index.php:50
+#: application/views/actt_time_per_page/index.php:54
+msgid "Export CSV"
+msgstr "Экспорт в CSV"
+
+#: application/views/actt_current_active/index.php:36
+#: application/views/actt_sessions/index.php:35
+#: application/views/actt_time_per_page/index.php:37
+msgid "Filter #"
+msgstr "Фильтр #"
+
+#: application/views/actt_current_active/index.php:41
+#: application/views/actt_sessions/index.php:38
+#: application/views/actt_time_per_page/index.php:42
+msgid "Filter Last activity"
+msgstr "Фильтр даты окончания"
+
+#: application/views/actt_current_active/index.php:40
+#: application/views/actt_sessions/index.php:37
+#: application/views/actt_time_per_page/index.php:41
+msgid "Filter Time Start"
+msgstr "Фильтр даты начала"
+
+#: application/views/actt_current_active/index.php:38
+#: application/views/actt_time_per_page/index.php:39
+msgid "Filter Title"
+msgstr "Фильтр заголовков"
+
+#: application/views/actt_sessions/index.php:39
+#: application/views/actt_time_per_page/index.php:43
+msgid "Filter Total"
+msgstr "Фильтр продолжительности"
+
+#: application/views/actt_current_active/index.php:37
+#: application/views/actt_time_per_page/index.php:38
+msgid "Filter URI"
+msgstr "Фильтр URL"
+
+#: application/views/actt_current_active/index.php:39
+#: application/views/actt_sessions/index.php:36
+#: application/views/actt_time_per_page/index.php:40
+msgid "Filter User"
+msgstr "Фильтр пользователей"
+
+#: application/views/activitytime/index.php:68
+#: application/views/activitytime/index.php:119
+msgid "For all info without limit please export CSV"
+msgstr ""
+"Для получения всей информации без ограничений, пожалуйста, нажмите кнопку "
+"\"Экспортировать все в CSV\""
+
+#: application/views/acct_contact/index.php:32
+msgid "Full Name"
+msgstr "Полное имя"
+
+#: admin/class-activitytime-admin.php:282
+msgid "General Section"
+msgstr "Общий раздел"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://swit.hr/"
+msgstr ""
+
+#: application/views/actt_related/index.php:25
+msgid "Install plugin"
+msgstr "Установка плагина"
+
+#: application/views/acct_contact/index.php:44
+msgid "Issue"
+msgstr "Вопрос"
+
+#: application/views/actt_current_active/index.php:26
+#: application/views/actt_sessions/index.php:24
+#: application/views/actt_time_per_page/index.php:26
+msgid "Last activity"
+msgstr "Дата окончания"
+
+#: admin/class-activitytime-admin.php:323
+msgid "Log only this specific roles"
+msgstr "Вести лог только для этих конкретных ролей"
+
+#: application/views/actt_time_per_page/index.php:5
+msgid "Manage all page visits"
+msgstr "Менеджер всех посещенных страниц"
+
+#: application/views/actt_current_active/index.php:5
+msgid "Manage current active page visits"
+msgstr "Менеджер текущих посещаемых страниц"
+
+#: application/views/acct_contact/index.php:65
+msgid "Message"
+msgstr "Сообщение"
+
+#: application/views/activitytime/index.php:80
+msgid "Most active pages (Top 20)"
+msgstr "Самые посещаемые страницы (Топ 20)"
+
+#: application/views/activitytime/index.php:29
+msgid "Most active users (Top 20)"
+msgstr "Самые активные пользователи (Топ 20)"
+
+#: application/views/acct_contact/index.php:33
+msgid "Name Surname"
+msgstr "Имя Фамилия"
+
+#: application/views/actt_current_active/index.php:274
+#: application/views/actt_sessions/index.php:264
+#: application/views/actt_time_per_page/index.php:270
+msgid "No data available in table"
+msgstr "Данные в таблице отсутствуют"
+
+#: application/views/activitytime/index.php:35
+#: application/views/activitytime/index.php:86
+msgid "No results found"
+msgstr "Никаких результатов не найдено"
+
+#: application/views/acct_contact/index.php:42
+#: application/views/acct_contact/index.php:52
+msgid "Not Selected"
+msgstr "Не выбрано"
+
+#: admin/class-activitytime-admin.php:307
+msgid "Only this admins allowed"
+msgstr "Разрешить только этим администраторам"
+
+#: admin/class-activitytime-admin.php:324
+msgid "Only this specific roles will be monitored, if unchecked then all"
+msgstr ""
+"Будет отслеживаться только выбранная роль. Если не установлено ни одного "
+"флажка, то будут отслеживаться все пользователи"
+
+#: application/views/acct_contact/index.php:46
+msgid "Other"
+msgstr "Другой"
+
+#: application/views/activitytime/index.php:95
+msgid "Page"
+msgstr "Страница"
+
+#: application/views/actt_current_active/index.php:123
+#: application/views/actt_sessions/index.php:112
+#: application/views/actt_time_per_page/index.php:116
+msgid "Please select listings to remove"
+msgstr "Пожалуйстра, выберите элементы для удаления"
+
+#. Description of the plugin
+msgid ""
+"Plugin will accurately measure all activity time per page and user like "
+"working time, reading time, watching time, sessions time for specific user "
+"on specific page."
+msgstr ""
+"Плагин производит мониторинг всего времени активности пользователей на "
+"страницах сайта. Благодаря плагину, можно отследить время работы "
+"пользователя на сайте, посмотреть текущую активность пользователей, "
+"продолжительность чтения и просмотра отдельных страниц, а так же "
+"длительность сессий конкретного пользователя. В плагине присутствует "
+"множество фильтров и настроек."
+
+#: application/views/actt_related/index.php:10
+msgid "Plugins which may be interested for you"
+msgstr "Плагины, которые могут быть вам интересны"
+
+#: application/views/acct_contact/index.php:40
+msgid "Question Category"
+msgstr "Категория вопроса"
+
+#: admin/class-activitytime-admin.php:248
+#: admin/class-activitytime-admin.php:249
+#: application/views/actt_related/index.php:5
+msgid "Related plugins"
+msgstr "Связанные плагины"
+
+#: application/views/acct_contact/index.php:50
+msgid "Satisfication with plugin"
+msgstr "Удовлетворенность плагином"
+
+#: application/views/actt_current_active/index.php:175
+#: application/views/actt_current_active/index.php:270
+#: application/views/actt_sessions/index.php:166
+#: application/views/actt_sessions/index.php:260
+#: application/views/actt_time_per_page/index.php:170
+#: application/views/actt_time_per_page/index.php:266
+msgid "Search"
+msgstr "Поиск"
+
+#: application/views/acct_contact/index.php:68
+msgid "Send"
+msgstr "Отправить"
+
+#: application/views/actt_sessions/index.php:5
+msgid "Sessions Activity"
+msgstr "Продолжительность сессий пользователей"
+
+#: admin/class-activitytime-admin.php:243
+#: admin/class-activitytime-admin.php:244
+msgid "Sessions activity"
+msgstr "Длительность сессий"
+
+#: admin/class-activitytime-admin.php:274
+msgid "Settings "
+msgstr "Настройки "
+
+#: application/views/actt_current_active/index.php:271
+#: application/views/actt_sessions/index.php:261
+#: application/views/actt_time_per_page/index.php:267
+msgid "Show _MENU_ entries"
+msgstr "Показать _MENU_ записей"
+
+#: application/views/actt_current_active/index.php:272
+#: application/views/actt_sessions/index.php:262
+#: application/views/actt_time_per_page/index.php:268
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Показано от 0 до 0 из 0 записей"
+
+#: application/views/actt_current_active/index.php:273
+#: application/views/actt_sessions/index.php:263
+#: application/views/actt_time_per_page/index.php:269
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Показано от _START_ до _END_ из _TOTAL_ записей"
+
+#: application/views/acct_contact/index.php:61
+msgid "Subject"
+msgstr "Тема"
+
+#: application/views/acct_contact/index.php:43
+msgid "Suggestion"
+msgstr "Предложение"
+
+#. Author of the plugin
+msgid "SWIT"
+msgstr ""
+
+#: admin/class-activitytime-admin.php:283
+msgid "These are general settings"
+msgstr "Это общие настройки"
+
+#: admin/class-activitytime-admin.php:238
+#: admin/class-activitytime-admin.php:239
+msgid "Time per page"
+msgstr "Время просмотра страниц"
+
+#: application/views/actt_current_active/index.php:25
+#: application/views/actt_sessions/index.php:23
+#: application/views/actt_time_per_page/index.php:25
+msgid "Time Start"
+msgstr "Дата начала"
+
+#: application/views/actt_current_active/index.php:23
+#: application/views/actt_time_per_page/index.php:23
+msgid "Title"
+msgstr "Залоговок"
+
+#: application/views/actt_sessions/index.php:25
+#: application/views/actt_time_per_page/index.php:27
+msgid "Total (m:s)"
+msgstr "Продолжительность (Мин:Сек)"
+
+#: application/views/actt_current_active/index.php:22
+#: application/views/actt_time_per_page/index.php:22
+msgid "URI"
+msgstr ""
+
+#: application/views/activitytime/index.php:44
+#: application/views/actt_current_active/index.php:24
+#: application/views/actt_sessions/index.php:22
+#: application/views/actt_time_per_page/index.php:24
+msgid "User"
+msgstr "Пользователь"
+
+#: application/views/actt_related/index.php:27
+msgid "Wow! This plugin is found in your installation!"
+msgstr "Ух ты! Этот плагин у Вас установлен!"
+
+#. Name of the plugin
+msgid "WP Sessions Time Monitoring Full Automatic"
+msgstr "Полностью автоматический мониторинг сессий на WP (Время активности)"
+
+#: application/views/acct_contact/index.php:36
+msgid "Your Email"
+msgstr "Ваш Email"
